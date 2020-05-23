@@ -29,7 +29,7 @@ from datetime import date, time
 import lifetimes
 
 ########### Data Collection #############################
-os.chdir('F:\\LocalDriveD\\Analytics\\Freelancing\\Scaleup\\Project 2 Sales and Marketing Analytics\\Use case 5')
+os.chdir('F:\\LocalDriveD\\Use case 5')
 maindata = pd.read_csv('Casino_Club_Cabana.csv', delimiter=',', decimal=',')
 
 ################## Data Understanding ########################
