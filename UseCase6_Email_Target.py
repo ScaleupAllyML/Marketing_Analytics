@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 17 17:54:30 2019
-
-@author: ankit
-"""
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 import os
@@ -31,7 +25,7 @@ import plotly
 from plotly.offline import init_notebook_mode;import plotly.graph_objs as go;plotly.offline.init_notebook_mode(connected=True)# offline ploting of box plots
 import pyod
 from datetime import date, time
-os.chdir('F:\\LocalDriveD\\Analytics\\Freelancing\\Scaleup\\Project 2 Sales and Marketing Analytics\\Use case 6')
+os.chdir('F:\\LocalDriveD\\Use case 6')
 
 data = pd.read_csv('Email_Data.csv', delimiter=',', decimal=',')
 data.head()
